@@ -1721,6 +1721,10 @@ fun! s:apply_syntax_highlightings()
   exec 'hi haskellImportKeywords' . s:fg_pink
   exec 'hi haskellStatement' . s:fg_purple . s:ft_bold
 
+  " OCaml Highlighting
+  exec 'hi ocamlConstructor' . s:fg_orange . s:ft_bold
+  exec 'hi ocamlModKeyword' . s:fg_blue . s:ft_bold
+  exec 'hi ocamlModule' . s:fg_red . s:ft_bold
 
   " SQL/MySQL Highlighting
   exec 'hi sqlStatement' . s:fg_pink . s:ft_bold
