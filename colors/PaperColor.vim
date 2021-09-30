@@ -1161,6 +1161,7 @@ fun! s:apply_syntax_highlightings()
   exec 'hi ModeMsg' . s:fg_olive
   exec 'hi MoreMsg' . s:fg_olive
   exec 'hi Question' . s:fg_olive
+  exec 'hi ErrorMsg' . s:fg_negative . s:bg_background
   exec 'hi WarningMsg' . s:fg_pink
   exec 'hi MatchParen' . s:fg_matchparen_fg . s:bg_matchparen_bg
   exec 'hi Folded' . s:fg_folded_fg . s:bg_folded_bg
